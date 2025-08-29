@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     services:
       juice-shop:
-        image: bkimminich/juice-shop:snapshot
+        image: bkimminich/juice-shop
         ports:
           - 3000:3000
         options: >-
