@@ -33,6 +33,7 @@ jobs:
           target: 'http://localhost:3000'
           fail_action: false
           cmd_options: '-a -j'
+          zap_home: /tmp
         # -a: include alpha rules; -j: JSON output as well
 
       - name: Upload ZAP Report
